@@ -3,6 +3,10 @@ class BeetleController < ApplicationController
   end
 
   def new
+
+  end
+
+  def create
     @beetle = Beetle.new
     if @beetle.save
       redirect_to root_path
@@ -10,9 +14,6 @@ class BeetleController < ApplicationController
       @error = "Did not save successfully. Try again."
       render :new
     end
-  end
-
-  def create
   end
 
   def show
