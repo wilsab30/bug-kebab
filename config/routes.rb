@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'beetle/index'
+
+  get 'beetle/new'
+
+  get 'beetle/create'
+
+  get 'beetle/show'
+
+  get 'beetle/destroy'
+
+  get 'beetle/edit'
+
+  get 'beetle/update'
+
   get 'beattle/index'
 
   get 'beattle/new'

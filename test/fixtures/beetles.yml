@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  environment: MyString
   description: MyText
 
 two:
   name: MyString
-  environment: MyString
   description: MyText

@@ -1,8 +1,7 @@
-class CreateBeattles < ActiveRecord::Migration
+class CreateBeetles < ActiveRecord::Migration
   def change
-    create_table :beattles do |t|
+    create_table :beetles do |t|
       t.string :name
-      t.string :environment
       t.text :description
 
       t.timestamps null: false

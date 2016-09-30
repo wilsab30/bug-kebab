@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BeattleTest < ActiveSupport::TestCase
+class BeetleTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
