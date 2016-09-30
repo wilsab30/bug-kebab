@@ -3,7 +3,7 @@ class BeetleController < ApplicationController
   end
 
   def new
-
+  @beetle = Beetle.new
   end
 
   def create

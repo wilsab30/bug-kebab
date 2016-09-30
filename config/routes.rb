@@ -3,6 +3,10 @@ Rails.application.routes.draw do
 
   get 'beetle/new'
 
+  post 'bettle/create'
+
+  post 'beetle/new'
+
   get 'beetle/create'
 
   get 'beetle/show'
